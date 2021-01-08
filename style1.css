@@ -1,0 +1,81 @@
+#nav_wrapper{
+    height: 100px;
+    width: 800px;
+    top: 80px;
+    align-content: center;
+}
+.signupbox{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 710px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: white;
+}
+
+.loginbox{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 420px;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    background: rgba(128, 46, 93, 0.3);
+}
+
+.registerbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 360px;
+    height: 770px;
+    padding: 0px 60px;
+    box-sizing: border-box;
+    background: rgba(166, 65, 6, 0.28);
+   
+}
+
+.user{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+    margin-top: -100px
+}
+
+body{
+    font-family: fantasy;
+    text-align: center;
+	font-color:white;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}

@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+    <head>
+        <title>REGISTER</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <script type="text/javascript">
+        
+    </script>
+    <body>
+        <style>
+            body{
+                       background-color: white;
+					   background-image: url("m4.jpg");
+					   background-image: no-repeat;
+                   }
+			p,a {
+			   color:pink;
+			   }
+            img{ float: left;}
+        </style>
+        <form action="register.php" method="post">       
+               <div class="registerbox">            
+                   <h2><mark>REGISTER</mark></h2>
+                   
+				    <p>Registration_id</p>
+                   <input type="text" name="rid" placeholder="rid" required>
+                   <p>Name</p>
+                   <input type="text" name="name" placeholder="abc" required>
+                   <p>Email</p>
+                   <input type="text" name="email" placeholder="abc@gmail.com" pattern="[^ @]*@[^ @]*" required>
+                   <p>Password</p>
+                   <input type="password" name="password" placeholder="*********" required>
+                   <p>Phone</p>
+                   <input type="text" name="phone" placeholder="Mobile_no"  pattern="^\d{3}\d{3}\d{4}$" required>
+				   <p>Gender:</p>
+                  <a> <input type="radio" name="gender" value="Male" >Male</a>
+				   <a><input type="radio" name="gender" value="Female">Female</a><br></br>
+				   
+                   <button type="register" class="btn">Register</button><br><br>
+				   <a href="login.php"> <h3>Already Register -></h3></a>
+	            </div>     
+	    </form>
+		
+                    
+               
+    </body>
+</html>
